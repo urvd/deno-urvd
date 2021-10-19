@@ -1,0 +1,15 @@
+{
+    "utilisateur":{
+        "nom":"Wallace",
+        "prenom":"BOURN",
+        "mail":"w.bourn@gmail.com"
+    },
+    "commande":{
+        "article":"{titre_livre} - {autheur}",
+        "prix":"14 euros"
+    },
+    "operation":{
+        "date":"07/10/2021",
+        "status": "EMPRUNTER"
+    }
+}
