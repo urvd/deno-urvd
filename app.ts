@@ -1,6 +1,5 @@
 import { Application, Context } from "https://deno.land/x/abc@v1.3.3/mod.ts";
-import { emprunt, reception} from './src/service.ts';
-
+import { emprunt, reception, retour} from './src/service.ts';
 const app = new Application();
 
 app.static('/', './src');
@@ -21,5 +20,5 @@ app.post('api/user/receptionner', async(ctx: Context) => {
 });
 
 app.post('api/user/retourner', async(ctx: Context) => {
-    await ctx.json(content);
+    await retour(ctx);
 });
