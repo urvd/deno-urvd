@@ -1,6 +1,6 @@
 import { Application, Context } from "https://deno.land/x/abc@v1.3.3/mod.ts";
 import { emprunt, reception, retour} from './src/service.ts';
-const app = new Application();
+export const app = new Application();
 
 app.static('/', './src');
 
